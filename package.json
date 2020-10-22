@@ -1,0 +1,19 @@
+{
+  "name": "imc-nodemailer",
+  "version": "1.0.0",
+  "description": "Nodemailer Application for IMC Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andimalfresh/imc_nodemailer.git"
+  },
+  "author": "br8ed.design",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andimalfresh/imc_nodemailer/issues"
+  },
+  "homepage": "https://github.com/andimalfresh/imc_nodemailer#readme"
+}
