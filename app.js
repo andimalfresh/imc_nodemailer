@@ -43,10 +43,10 @@ app.post("/send", (req,res) => {
 
         // setup email data with unicode symbols
         let mailOptions = {
-            from: '"PetSwipe App" <petswipe@gmail.com>', // sender address
+            from: '"IMC Website Contact" <imcwebsite@gmail.com>', // sender address
             to: 'w.andrew.pedersen@gmail.com', // list of receivers
-            subject: 'Someone is Interested in your pet !!', // Subject line
-            text: 'Hello world?', // plain text body
+            subject: 'IMC Website Contact - Request for more information ', // Subject line
+            text: 'Request for more information', // plain text body
             html: output // html body
         };
 
