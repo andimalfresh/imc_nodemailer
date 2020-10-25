@@ -19,8 +19,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 app.post("/send", (req,res) => {
     const output = `
-    <p>You have a new message !</p>
-    <h3>Contact Details</h3>
+    <p>New Website Request for more information :</p>
+    <h2>Contact Details</h2>
     <ul>
         <li>Name: ${req.body.name}</li>
         <li>Email: ${req.body.email}</li>
@@ -36,8 +36,8 @@ app.post("/send", (req,res) => {
             port: 587,
             secure: false, // true for 465, false for other ports
             auth: {
-                user: 'petswipe@gmail.com', // generated ethereal user
-                pass: 'petswipeorpetswipe' // generated ethereal password
+                user: 'imc.web.request@gmail.com', // generated ethereal user
+                pass: '1Changethemessage' // generated ethereal password
             }
         });
 
